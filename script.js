@@ -1,1 +1,30 @@
-console.log('testing')
+const orange = document.getElementById('orange');
+const red = document.getElementById('red');
+const blue = document.getElementById('blue');
+const purple = document.getElementById('purple');
+const green = document.getElementById('green');
+const yellow = document.getElementById('yellow');
+
+orange.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'orange'
+})
+
+red.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'red'
+})
+
+blue.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'lightblue'
+})
+
+purple.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'violet'
+})
+
+green.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'green'
+})
+
+yellow.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'yellow'
+})
