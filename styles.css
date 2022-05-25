@@ -1,28 +1,62 @@
 img {
-    height: 500px;
-    width: 350px;
+    height: 700px;
+    width: 500px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
 }
 
 #orange {
     background-color: orange;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #red {
     background-color: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #blue {
-    background-color: lightblue;
+    background-color: lightskyblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #purple {
     background-color: violet;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #green {
     background-color: green; 
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #yellow {
     background-color: yellow;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

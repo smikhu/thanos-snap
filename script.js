@@ -14,7 +14,7 @@ red.addEventListener('click', () => {
 })
 
 blue.addEventListener('click', () => {
-    document.body.style.backgroundColor = 'lightblue'
+    document.body.style.backgroundColor = 'lightskyblue'
 })
 
 purple.addEventListener('click', () => {
