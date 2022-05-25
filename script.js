@@ -28,3 +28,15 @@ green.addEventListener('click', () => {
 yellow.addEventListener('click', () => {
     document.body.style.backgroundColor = 'yellow'
 })
+
+
+function showCoords(event) {
+    var x = event.clientX;
+    var y = event.clientY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+    document.getElementById("demo").innerHTML = coords;
+}
+
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});

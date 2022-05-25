@@ -1,6 +1,6 @@
 img {
-    height: 700px;
-    width: 500px;
+    height: 500px;
+    width: 300px;
     display: block;
     align-items: center;
     margin: 0 auto;
@@ -54,9 +54,9 @@ img {
     cursor: pointer;
 }
 
-.buttons {
+/* .buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+} */
