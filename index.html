@@ -13,27 +13,11 @@
 </head>
 <body>
 
-    <!-- ORIGINAL************************************************************* -->
-
-    <!-- <div class="buttons">
-        <button id="orange">Soul</button>
-        <button id="red">Reality</button>
-        <button id="blue">Space</button>
-        <button id="purple">Power</button>
-        <button id="green">Time</button>
-        <button id="yellow">Mind</button>
-    </div>
-    <img src="images/gauntlet.png" /> -->
-
-
-
-    <!-- MAP AREA ATTEMPT*************************************************** -->
-
-
     <p id="demo"></p>
 
     <img src="images/gauntlet.png" usemap="#gauntlet"
-        onmousemove="showCoords(event)">
+        onmousemove="showCoords(event)"
+        >
         <map name="gauntlet">
             <area shape="circle" id="orange" coords="310,305,30" alt="orange">
             <area shape="circle" id="red" coords="382,290,40" alt="red">
@@ -43,25 +27,9 @@
             <area shape="circle" id="yellow" coords="420,415,60" alt="yellow">
         </map>
     </img>
+    <div id="text">
 
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="image-map-resp/jquery.rwdImageMaps.min.js"></script> -->
-
-
-    <!-- <script>
-        function showCoords(event) {
-            var x = event.clientX;
-            var y = event.clientY;
-            var coords = "X coords: " + x + ", Y coords: " + y;
-            document.getElementById("demo").innerHTML = coords;
-        }
-        </script>
-
-        <script>
-            $(document).ready(function(e) {
-                $('img[usemap]').rwdImageMaps();
-            });
-        </script> -->
+    </div>
+    
 </body>
 </html>
